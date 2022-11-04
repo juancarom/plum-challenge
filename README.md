@@ -3,22 +3,24 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Requirements:
 
-* Ruby version
+Ruby version 2.7
 
-* System dependencies
+Rails 7.0.4
 
-* Configuration
+Instructions: 
 
-* Database creation
+In your console run
 
-* Database initialization
+rake db:create
 
-* How to run the test suite
+rake db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
+rake db:seed
 
-* Deployment instructions
+rails s
 
-* ...
+or 
+
+rails s -p 3001 (to use it with react js frontend)
